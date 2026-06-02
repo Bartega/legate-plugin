@@ -1,0 +1,12 @@
+{
+  "name": "legate",
+  "description": "Push content drafts into your Legate board from Claude Code.",
+  "owner": { "name": "Bartega", "url": "https://legate.social" },
+  "plugins": [
+    {
+      "name": "legate",
+      "source": "./legate",
+      "description": "Push content drafts into your Legate board from Claude Code (bundles the Legate MCP server, a /legate-draft command, and a drafting skill)."
+    }
+  ]
+}

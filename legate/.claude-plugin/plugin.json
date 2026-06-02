@@ -1,0 +1,24 @@
+{
+  "name": "legate",
+  "displayName": "Legate",
+  "description": "Push content drafts straight into your Legate board from Claude Code — bundles the Legate MCP server, a /legate-draft command, and a drafting skill.",
+  "version": "1.0.0",
+  "author": { "name": "Bartega", "url": "https://legate.social" },
+  "homepage": "https://legate.social",
+  "keywords": ["legate", "content", "drafting", "mcp"],
+  "license": "MIT",
+  "userConfig": {
+    "apiKey": {
+      "type": "string",
+      "title": "Legate API key",
+      "description": "Create one at legate.social → Team → API keys. Looks like legate_sk_…"
+    }
+  },
+  "mcpServers": {
+    "legate": {
+      "type": "http",
+      "url": "https://legate.social/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.apiKey}" }
+    }
+  }
+}
