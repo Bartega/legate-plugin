@@ -2,7 +2,7 @@
   "name": "legate",
   "displayName": "Legate",
   "description": "Push content drafts straight into your Legate board from Claude Code — bundles the Legate MCP server, a /legate-draft command, and a drafting skill.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": { "name": "Bartega", "url": "https://legate.social" },
   "homepage": "https://legate.social",
   "keywords": ["legate", "content", "drafting", "mcp"],

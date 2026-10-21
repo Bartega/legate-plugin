@@ -16,4 +16,4 @@ Do this:
    - Use `thread` for a multi-post thread, `body` for a single post.
 3. Report the draft id, whether it landed in the inbox or a specific column, and the board link the tool returns.
 
-Rules: never post anything publicly — Legate is a drafting board, not a publisher. Never invent live numbers, APYs, or URLs; leave a placeholder like `<TBD>` when a real value isn't known.
+Rules: never post anything publicly — Legate is a drafting board, not a publisher. Never invent live numbers, prices, or URLs; leave a placeholder like `<TBD>` when a real value isn't known.

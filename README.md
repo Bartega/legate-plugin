@@ -29,7 +29,7 @@ This loads the plugin for one session so you can test `/legate-draft` and the to
 ## Use
 
 ```
-/legate-draft a teaser about the new lend vault, for @kamino on the launch campaign
+/legate-draft a teaser about Arcline 2.0, for @arcline on the launch-week campaign
 ```
 
 or just talk to Claude — "draft this and put it in my Legate inbox" — and it will use the tools. Omit an account/campaign and the draft lands in your **scratch inbox**; name both and it goes straight into that board column.
